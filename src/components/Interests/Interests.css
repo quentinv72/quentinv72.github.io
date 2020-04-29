@@ -1,0 +1,30 @@
+.text.list {
+  border-radius: 6px;
+  border: 3px solid black;
+  padding-left: 1em;
+  margin-bottom: 3vh;
+  padding-right: 1em;
+}
+
+.spotify-player {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 1em;
+}
+
+iframe {
+  border-radius: 6px;
+  width: 300px;
+  height: 380px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 400px) {
+  iframe {
+    border-radius: 6px;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+  }
+}

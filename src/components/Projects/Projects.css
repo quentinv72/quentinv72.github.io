@@ -1,0 +1,51 @@
+.all-projects {
+  padding-top: 5vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  width: 75%;
+  margin: auto;
+}
+
+h2.project-title {
+  font-size: 2vw;
+}
+
+p.project-description {
+  font-size: 1.2vw;
+}
+
+@media only screen and (max-width: 850px) {
+  .all-projects {
+    padding-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 70%;
+    margin: auto;
+  }
+  h2.project-title {
+    font-size: 15px;
+  }
+
+  p.project-description {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  h2.project-title {
+    font-size: x-large;
+  }
+
+  p.project-description {
+    font-size: initial;
+  }
+
+  .all-projects {
+    width: 850px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+}

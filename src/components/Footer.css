@@ -1,0 +1,10 @@
+#profile-links {
+  width: 40%;
+  padding-bottom: 3vh;
+  padding-top: 1vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  font-size: x-large;
+}

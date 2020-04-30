@@ -10,7 +10,7 @@ nav {
   border-bottom: 3px solid black;
   height: 100%;
   margin: auto;
-  margin-top: 4vh;
+  margin-top: 1vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;

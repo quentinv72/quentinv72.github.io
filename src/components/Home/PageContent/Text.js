@@ -1,7 +1,6 @@
 import React from "react";
 import "./Text.css";
-
-import Footer from "../../Footer";
+import { Link } from "react-router-dom";
 
 function Text(props) {
   return (
@@ -19,9 +18,12 @@ function Text(props) {
       </p>
       <p className='description-text'>
         Check out some of my projects in the{" "}
-        <span className='highlight' style={{ backgroundColor: "#579d1f" }}>
+        <Link
+          className='highlight'
+          style={{ backgroundColor: "#579d1f" }}
+          to='/projects'>
           Projects
-        </span>{" "}
+        </Link>{" "}
         section <span>&#128526;</span>.
       </p>
     </div>

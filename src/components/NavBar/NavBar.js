@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import EmailInput from "../EmailInput/EmailInput";
+import resume from "./resume.pdf";
 import { Link } from "react-router-dom";
 
 export default function NavBar(props) {
@@ -18,6 +19,15 @@ export default function NavBar(props) {
         </Link>
       </nav>
       <EmailInput />
+      <div className='resume'>
+        <a
+          href={resume}
+          className='resume-button'
+          target='_blank'
+          rel='noopener noreferrer'>
+          Resume
+        </a>
+      </div>
     </div>
   );
 }

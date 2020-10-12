@@ -70,3 +70,19 @@ a {
     /* padding-bottom: 12px; */
   }
 }
+
+.resume-button {
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.resume-button:hover {
+  background-color: rgb(74, 157, 196);
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

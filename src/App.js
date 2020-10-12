@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./components/Home/Home";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
 import Interests from "./components/Interests/Interests";
 

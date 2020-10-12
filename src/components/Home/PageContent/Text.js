@@ -9,8 +9,16 @@ function Text(props) {
         Hello, I'm <span id='first-name'>Quentin</span>{" "}
       </h1>
       <p className='description-text'>
-        I am a coder and a problem solver. I am mostly interested in full stack
-        web development technologies.
+        I am a coder and a problem solver. I am currently working as a{" "}
+        <span style={{ color: "#e54120" }}>backend integration engineer </span>
+        at{" "}
+        <a
+          href='https://cornershopapp.com/'
+          target='_blank'
+          rel='noopener noreferrer'>
+          Cornershop
+        </a>
+        .
       </p>
       <p className='description-text'>
         I graduated from the department of Mathematics at the University of

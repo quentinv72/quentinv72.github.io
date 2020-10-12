@@ -2,13 +2,15 @@ import React from "react";
 import "./Interests.css";
 
 export default function Interests(props) {
-  const X = "X";
-  const PX = `\\mathbb{P}(X)`;
   return (
     <div>
       <div className='text'>
         <h2>
-          I spend most of my time reading about{" "}
+          I spend most of my time{" "}
+          <span className='highlight' style={{ color: "#faa200" }}>
+            coding
+          </span>
+          , reading about{" "}
           <span className='highlight' style={{ color: "#faa200" }}>
             Mathematics
           </span>
@@ -24,16 +26,33 @@ export default function Interests(props) {
           <span className='highlight' style={{ color: "#faa200" }}>
             squash
           </span>
-          , I started playing when I was at university and have continued since.
+          . I started playing when I was at university and have continued ever
+          since.
         </h2>
+      </div>
+      <div className='text list'>
+        <h3>Docker and Kubernetes</h3>
+        <p>
+          Recently I have started to develop an interest in containerization and
+          infrastructure-as-code technologies.
+        </p>
+        <p>
+          I have been reading{" "}
+          <a
+            href='https://www.amazon.ca/Cloud-Native-DevOps-Kubernetes-Applications/dp/1492040762'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <em>Cloud Native DevOps with Kubernetes</em>
+          </a>{" "}
+          by John Arundel and Justin Domingus.
+        </p>
       </div>
       <div className='text list'>
         <h3>Cantor's Theorem:</h3>
         <p>
           This is one of my <span style={{ fontWeight: "bold" }}>favorite</span>{" "}
           results in Mathematics. It's a beautiful result from Set Theory that
-          gives us a relationship between the size of a set and it's power set.
-          I find this result very deep, yet it is easy to fomulate and prove.{" "}
+          gives us a relationship between the size of a set and its power set.{" "}
         </p>
         <p>
           It is as follows: <br /> <br />
@@ -53,17 +72,15 @@ export default function Interests(props) {
         </p>
       </div>
       <div className='text list'>
-        <h3>Paul Institute</h3>
+        <h3>F & Q</h3>
         <p>
-          Lately I've really been into the work of the Paul brothers, Jai Paul
-          and A.K. Paul. The Paul Institute was founded in 2016 by the two
-          siblings, and has been releasing music ever since. Check out the Paul
-          Institute playlist on Spotify.
+          F & Q is a collaborative playlists that a friend and I have been
+          working on. It is a collection of our favorite songs of the moment.{" "}
         </p>
         <div className='spotify-player'>
           <iframe
             title='Spotify Playlist'
-            src='https://open.spotify.com/embed/playlist/48zee8uSp4H7oKdWan7uDy'
+            src='https://open.spotify.com/embed/playlist/6gRQpV3t50gIQwffCeW1BA'
             frameborder='0'
             allowtransparency='true'
             allow='encrypted-media'></iframe>
@@ -74,8 +91,9 @@ export default function Interests(props) {
         <p>
           My favorite shows of the 2019-2020 year are:
           <ol>
+            <li>Mr. Robot, season 4</li>
             <li>The New Pope</li>
-            <li>Platane Saison tree</li>
+            <li>Platane</li>
             <li>Barry</li>
             <li>Westworld, season 3</li>
           </ol>

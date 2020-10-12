@@ -5,11 +5,11 @@ function ProfilePic(props) {
   return (
     <div className='profile-picture'>
       <img src={profile} alt='Profile' id='profile-image' />
-      <div className='overlay'>
+      {/* <div className='overlay'>
         <div className='neural-text'>
           This image of me was generated using neural style transfer.
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { faCopy } from "@fortawesome/free-regular-svg-icons";
 import "./EmailInput.css";
 
 export default function EmailInput(props) {
-  const [email, setEmail] = useState("quentin.vilchez@gmail.com");
+  const email = "quentin.vilchez@gmail.com";
   const [snackbar, setSnack] = useState("snackbar");
   const handleClick = (e) => {
     navigator.clipboard.writeText(email).then(
@@ -28,7 +28,9 @@ export default function EmailInput(props) {
   return (
     <div id='email-input'>
       <div id='email'>
-        <div id='address'>{email}</div>
+        <div id='address'>
+          <a href={`mailto:${email}`}>{email}</a>
+        </div>
         {navigator.clipboard ? (
           <div id='copy-icon'>
             <FontAwesomeIcon icon={faCopy} onClick={handleClick} />

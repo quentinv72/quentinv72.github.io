@@ -30,7 +30,7 @@ export default function Interests(props) {
           since.
         </h2>
       </div>
-      <div className='text list'>
+      {/* <div className='text list'>
         <h3>Docker and Kubernetes</h3>
         <p>
           Recently I have started to develop an interest in containerization and
@@ -46,7 +46,7 @@ export default function Interests(props) {
           </a>{" "}
           by John Arundel and Justin Domingus.
         </p>
-      </div>
+      </div> */}
       <div className='text list'>
         <h3>Cantor's Theorem:</h3>
         <p>

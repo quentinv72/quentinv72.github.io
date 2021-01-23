@@ -10,7 +10,7 @@ function Text(props) {
       </h1>
       <p className='description-text'>
         I am a coder and a problem solver. I am currently working as a{" "}
-        <span style={{ color: "#e54120" }}>backend integration engineer </span>
+        <span style={{ color: "#e54120" }}>backend engineer</span> on the integration team
         at{" "}
         <a
           href='https://cornershopapp.com/'
@@ -24,16 +24,8 @@ function Text(props) {
         I graduated from the department of Mathematics at the University of
         Toronto in 2019.
       </p>
-      <p className='description-text'>
-        Check out some of my projects in the{" "}
-        <Link
-          className='highlight'
-          style={{ backgroundColor: "#579d1f" }}
-          to='/projects'>
-          Projects
-        </Link>{" "}
-        section <span>&#128526;</span>.
-      </p>
+      <p className='description-text'>You can check out some of my projects by clicking the <span style={{ color: "#0459db" }}>GitHub</span> icon below.</p>
+      <p className="description-text">I hid a secret <span style={{ color: "#1ED760" }}>Spotify</span> playlist on this website. I hope you enjoy finding it and listening to it! <span>&#127926;</span></p>
     </div>
   );
 }

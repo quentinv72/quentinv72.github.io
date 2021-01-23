@@ -20,14 +20,13 @@ export default function Interests(props) {
           </span>{" "}
           and watching{" "}
           <span className='highlight' style={{ color: "#faa200" }}>
-            series
+            TV shows.{' '}
           </span>
-          . I also really enjoy playing{" "}
+          Lately I've been learning the <span style={{ color: "#7fd5ea" }}>Go</span> language and about the Linux kernel. I also really enjoy playing{" "}
           <span className='highlight' style={{ color: "#faa200" }}>
-            squash
+            squash.
           </span>
-          . I started playing when I was at university and have continued ever
-          since.
+
         </h2>
       </div>
       {/* <div className='text list'>
@@ -89,13 +88,14 @@ export default function Interests(props) {
       <div className='text list'>
         <h3>Television</h3>
         <p>
-          My favorite shows of the 2019-2020 year are:
+          My favorite shows of the 2020 year are:
           <ol>
             <li>Mr. Robot, season 4</li>
             <li>The New Pope</li>
             <li>Platane</li>
             <li>Barry</li>
             <li>Westworld, season 3</li>
+            <li>Halt and Catchfire (all the seasons)</li>
           </ol>
           Let me know what you think.
         </p>

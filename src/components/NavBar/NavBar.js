@@ -11,9 +11,9 @@ export default function NavBar(props) {
         <Link to='/' id='home'>
           Home
         </Link>
-        <Link id='projects' to='/projects'>
+        {/* <Link id='projects' to='/projects'>
           Projects
-        </Link>
+        </Link> */}
         <Link id='interests' to='/interests'>
           Interests
         </Link>

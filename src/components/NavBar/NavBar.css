@@ -12,7 +12,7 @@ nav {
   margin: auto;
   margin-top: 1vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
 }
@@ -38,9 +38,8 @@ a {
   color: black;
   text-decoration: none;
 }
-#projects,
-#interests,
-#home {
+
+#home, #interests {
   padding-top: 2vh;
   cursor: pointer;
   border-radius: 5px;
@@ -49,6 +48,7 @@ a {
   font-size: large;
   height: 90%;
 }
+
 
 @media only screen and (max-width: 600px) {
   nav {

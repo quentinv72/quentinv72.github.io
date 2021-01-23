@@ -74,7 +74,7 @@ export default function Interests(props) {
         <h3>F & Q</h3>
         <p>
           F & Q is a collaborative playlists that a friend and I have been
-          working on. It is a collection of our favorite songs of the moment.{" "}
+          working on. It is a collection of our favorite songs of the moment.{" "} (This is not the secret playlist though!)
         </p>
         <div className='spotify-player'>
           <iframe

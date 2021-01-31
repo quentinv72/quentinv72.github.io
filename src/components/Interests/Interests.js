@@ -22,7 +22,7 @@ export default function Interests(props) {
           <span className='highlight' style={{ color: "#faa200" }}>
             TV shows.{' '}
           </span>
-          Lately I've been learning the <span style={{ color: "#7fd5ea" }}>Go</span> language and about the Linux kernel. I also really enjoy playing{" "}
+          Lately I've been learning about the <span style={{ color: "#7fd5ea" }}>Go</span> language and the Linux kernel. I also really enjoy playing{" "}
           <span className='highlight' style={{ color: "#faa200" }}>
             squash.
           </span>

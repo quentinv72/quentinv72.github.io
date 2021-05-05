@@ -10,7 +10,7 @@ function Text(props) {
       </h1>
       <p className='description-text'>
         I am a coder and a problem solver. I am currently working as a{" "}
-        <span style={{ color: "#e54120" }}>backend engineer</span> on the integration team
+        <span style={{ color: "#e54120" }}>backend engineer</span> on the catalog integration team
         at{" "}
         <a
           href='https://cornershopapp.com/'
